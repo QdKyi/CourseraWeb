@@ -1,0 +1,79 @@
+body {
+	font-size: 16px;
+	font-family: cursive;
+}
+#header-nav {
+	background-color: gray;	
+	border-radius: 0;
+  	border: 2px solid black;
+}
+.navbar-brand h1{
+	color: black;
+	font-size: 1,5em;
+	font-weight: bold;
+	margin-top: 10px
+
+}
+.container h2 {
+	margin-top: 10px;
+	margin-bottom: 25px;
+	font-weight: bold;
+}
+.container h3 {
+	font-weight: bold;
+	color: black;
+}
+.container p {
+	color: black;
+}
+.content-tile {
+	background-color: gray;
+}
+div p {
+	padding: 0px 15px 0px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: black;
+	height: 4px;
+
+}
+.navbar-default .navbar-toggle {
+	border: 2px solid black;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+	background-color: #dadada;
+}
+.navbar-brand {
+	height: auto;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover  {
+	border-color: #dadada;
+	background-color: gray;
+}
+#collapsable-nav {
+	overflow: hidden;
+}
+.navbar-default .navbar-nav > li > a {
+	background-color: white;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+	padding: 0px;
+}
+a hr {
+	border: 1px solid black;
+	background-color: black;
+	margin: 0px auto 0px;
+	width: 98%;
+}
+#nav-list {
+	margin: 0px;
+	border: 1px solid black;
+}
+#collapsable-nav {
+	padding: 0px;
+	border: 0px;
+}
